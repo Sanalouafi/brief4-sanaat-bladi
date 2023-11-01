@@ -1,0 +1,66 @@
+.navbar{
+    justify-content: space-around;
+    background-color: #001524;
+    /* color: white; */
+}
+
+body{
+    background-color: #CED6CF;
+}
+hr{
+    width: 90%;
+    padding-top: 5vh;
+}
+
+.hero-section{
+    padding-top: 10vh;
+    height: 100vh;
+    background-image: url('/img/image\ 4.png');
+    background-color: rgb(0,0,0 , 0.5);
+    background-blend-mode: multiply;
+    background-size: cover;
+}
+.hero-section p{
+    font-size: 5vh;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    color: white;
+}
+.hero-title{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 8vw;
+}
+.btn{
+    background-color: #397643;
+    color: white;
+    font-weight: bold;
+}
+.btn:hover{
+    background-color: white;
+    color: #397643;
+    border-color: #397643;
+    border: solid;
+}
+
+
+.artisant-reconnu h1{
+    color: white;
+    padding-top: 5vh;
+    padding-bottom: 3vh;
+    font-weight: bold;
+    font-size: 7vh;
+}
+.profil-cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10vw;
+}
+.profile-reconnu{
+    background-color: #001524;
+    width: 85%;
+    padding-top: 5vh;
+    padding-bottom: 3vh;
+}
