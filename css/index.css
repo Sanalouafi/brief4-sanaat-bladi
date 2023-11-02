@@ -1,0 +1,8 @@
+@media screen and (max-width:992px) {
+    #navbarCollapse{
+        text-align: center;
+    }
+    #lastElementInNavbar{
+        margin-top: 1rem;
+    }
+}
