@@ -4,11 +4,20 @@ body{
     background-blend-mode: multiply;
     background-size: cover;
 }
-
+header div{
+    
+    padding-top: 0.5vh;
+    padding-bottom: 0.5vh;
+}
+.navbar{
+    background-color: #001524;
+}
 .sign-login-section{
    padding: 10vw;
    gap: 3vw;
 }
+
+
 .title-area{
     width: 50%;
 }
@@ -67,4 +76,25 @@ body{
 }
 #link-login, #link-sign{
     cursor: pointer;
+}
+.footer-section footer{
+    background-color: #001524;
+    padding-left: 20vh;
+    padding-right: 20vh;
+    height: fit-content;
+}
+.row, .col .nav-link{
+    color: white;
+}
+.sous-logo{
+    font-size: 12px;
+}
+
+@media screen and (max-width:992px) {
+    #navbarCollapse{
+        text-align: center;
+    }
+    #lastElementInNavbar{
+        margin-top: 1rem;
+    }
 }
