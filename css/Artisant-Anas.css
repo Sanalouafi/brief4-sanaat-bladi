@@ -1,0 +1,246 @@
+.navbar{
+    justify-content: space-around;
+    background-color: #001524;
+    /* color: white; */
+}
+
+body{
+    background-color: rgba(175, 175, 175, 0.3);
+}
+hr{
+    width: 90%;
+    padding-top: 5vh;
+}
+
+.hero-section{
+    padding-top: 10vh;
+    height: 100vh;
+    background-image: url('/img/image\ 4.png');
+    background-color: rgb(0,0,0 , 0.5);
+    background-blend-mode: multiply;
+    background-size: cover;
+}
+.hero-section p{
+    font-size: 5vh;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    color: white;
+}
+.hero-title{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 8vw;
+}
+.btn{
+    background-color: #397643;
+    color: white;
+    font-weight: bold;
+}
+.btn:hover{
+    background-color: white;
+    color: #397643;
+    border-color: #397643;
+    border: solid;
+}
+
+
+.artisant-reconnu h1, .category-sliders h1, .spotlight-section h1, .blog-section h1, .sponsor-section h1{
+    color: #525252;
+    padding-top: 5vh;
+    padding-bottom: 3vh;
+    font-weight: bold;
+    font-size: 7vh;
+}
+.artisant-reconnu-card h4{
+    color: #D6CC99;
+    padding-bottom: 2vh;
+}
+.artisant-reconnu-card p{
+    color: white;
+    line-height: 7px;
+}
+.spotlight-section p{
+    color: #001524;
+    font-size: 3vh;
+}
+.profil-cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10vw;
+    padding-bottom: 5vh;
+}
+.profile-reconnu{
+    background-color: #001524;
+    width: 85%;
+    padding-top: 5vh;
+    padding-bottom: 3vh;
+}
+.category-sliders h3{
+    color: #001524;
+    font-weight: bold;
+}
+ .artisant-reconnu-card:hover{
+   opacity: 0.7;
+   transform:rotateY(20deg);
+   
+}
+.pot-slider{
+    background-image: url('/img/image\ 12.png');
+    background-color: rgb(0,0,0 , 0.5);
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+.tapis-slider{
+    background-image: url('/img/image\ 16.png');
+    background-color: rgb(0,0,0 , 0.5);
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+.cuir-slider{
+    background-image: url('/img/image\ 20.png');
+    background-color: rgb(0,0,0 , 0.5);
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+.metal-slider{
+    background-image: url('/img/image\ 24.png');
+    background-color: rgb(0,0,0 , 0.5);
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+.bois-slider{
+    background-image: url('/img/image\ 28.png');
+    background-color: rgb(0,0,0 , 0.5);
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+.spotlight{
+    background-image: url('/img/got-section.png');
+    background-color: rgb(0,0,0 , 0.5);
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding: 5vw;
+    gap: 5vh;
+}
+.spotlight-img{
+    width: 45%;
+}
+.spotlight-img img{
+    width: 100%;
+}
+.bottom-spotlight{
+    background-color: #F1F3F1;
+    padding-bottom: 3vh;
+}
+.bottom-spotlight, .top-spotlight{
+    width: 80%;
+}
+
+.article{
+    padding: 3vw;
+    font-weight: bold;
+}
+.txt-top h1, .txt-btm p{
+    color: white;
+}
+.txt-top span, .txt-btm h3{
+    color: #D6CC99;
+}
+.txt-btm h3{
+    padding-bottom: 2vh;
+}
+
+.top-spotlight{
+    gap: 3vw;
+}
+.txt-btm h3, .txt-btm p{
+    font-weight: bold;
+}
+.init{
+    color: #E7D2C4;
+}
+.echatillon-pics{
+    gap: 3vw;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+}
+.echantillon h4{
+    color: #397643;
+    font-weight: bold;
+}
+.subscribe-section{
+    background-color: #001524;
+    padding: 5vh;
+    gap: 2vh;
+}
+.subscribe-section h3, .subscribe-section p{
+    color: white;
+}
+.subscribe-section h3{
+    font-weight: lighter;
+}
+form{
+    gap: 2vw;
+}
+.mail-input{
+    width: 25vw;
+    height: 5vh;
+    border: none;
+    border-radius: 7px;
+}
+.sbmt-btn{
+    background-color: #397643;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+}
+.content{
+    padding: 10vh;
+    gap: 5vw;
+}
+.articles{
+    width: 30%;
+    background-color: #001524;
+    padding: 2vh;
+}
+.stories{
+    gap: 5vh;
+}
+.stories h2{
+    font-weight: bold;
+}
+.articles h2, .articles-txt p{
+    color: white;
+}
+.articles-txt{
+    font-weight: lighter;
+}
+.articles-txt h4{
+    color: #D6CC99;
+}
+.blog{
+    gap: 2vw;
+}
