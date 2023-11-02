@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive Bootstrap Navbar</title>
+    <title>Sanaat Beladi</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
 </head>
@@ -41,63 +41,70 @@
             </nav>
         </div>
     </header>
-    <section class="container">
-        <span class="">Découvrez l'essence du Maroc</span>
-        <h1 class="display-1">Bienvenue à Sanaat Beladi - Là où la tradition rencontre l'art</h1>
-    </section>
-    <div id="carouselExampleIndicators" class="carousel slide">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="h- carousel-item active">
-            <img src="/imgs/swipImg.webp" class="d-block w-100" alt="...">
+    <section class="container text-white">
+      <div id="carouselExampleIndicators" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
           </div>
-          <div class="carousel-item">
-            <img src="/imgs/swapImg2.webp" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="/imgs/swapImg3.webp" class="d-block w-100" alt="...">
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-      <section class="container d-flex flex-column align-items-center">
-        <div>
-            <h1 class="display-1 text-center">Découvrez l'essence du Maroc</h1>
-        </div>
-        <div class="d-flex display-6">
-            <div class="w-50">
-                <p>Plongez dans le monde vibrant de l'artisanat marocain. Chez Sanaat Beladi, nous vous proposons une sélection de trésors authentiques, fabriqués à la main. Des souks animés au seuil de votre porte, découvrez le riche patrimoine et l'artisanat exquis du Maroc.</p>
+          <div class="carousel-inner">
+            <div class="h- carousel-item w-100 active p-5 " style="background-image: url(/img/swipImg.jpg);">
+              <div class="d-flex flex-column align-items-center">
+                <span class="w-75 mt-5">Découvrez l'essence du Maroc</span>
+                <h1 class="display-1 w-75 mb-5">Bienvenue à Sanaat Beladi - Là où la tradition rencontre l'art</h1>
+              </div>
             </div>
-            <div class="w-50">
-                <img src="imgs/swipImg.webp" class="w-100" alt="">
+            <div class="carousel-item w-100 p-5" style="background-image: url(/img/swapImg2.jpg);">
+              <div class="d-flex flex-column align-items-center">
+                <span class="w-75 mt-5">Découvrez l'essence du Maroc</span>
+                <h1 class="display-1 w-75 mb-5">Bienvenue à Sanaat Beladi - Là où la tradition rencontre l'art</h1>
+              </div>
+            </div>
+            <div class="carousel-item w-100 p-5" style="background-image: url(/img/swapImg3.jpg);">
+              <div class="d-flex flex-column align-items-center">
+                <span class="w-75 mt-5">Découvrez l'essence du Maroc</span>
+                <h1 class="display-1 w-75 mb-5">Bienvenue à Sanaat Beladi - Là où la tradition rencontre l'art</h1>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+    </section>
+      <section class="container d-flex flex-column align-items-center card p-5 mt-5">
+        <div>
+            <h1 class=" text-center pb-2">Découvrez l'essence du Maroc</h1>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <p class="display-6">Plongez dans le monde vibrant de l'artisanat marocain. Chez Sanaat Beladi, nous vous proposons une sélection de trésors authentiques, fabriqués à la main. Des souks animés au seuil de votre porte, découvrez le riche patrimoine et l'artisanat exquis du Maroc.</p>
+            </div>
+            <div class="col-6">
+                <img src="img/Image1BlogIndex.png" class="w-100" alt="">
             </div>
         </div>
       </section>
-        <section class="container">
-            <div class="row gap-3">
-                <div class="col-6">
-                    <div>
-                        <img src="imgs/swapImg3.webp" class="w-100" alt="">
+        <section class="container mt-5">
+            <div class="row mb-5">
+                <div class="col-6 card p-5">
+                    <div >
+                        <img src="img/Image2BlogIndex.png" class="w-100" alt="">
                     </div>
                     <div>
                         <h1>Parer de mystère marocain</h1>
                         <p>Des pièces d'inspiration berbère aux créations contemporaines, notre sélection de bijoux incarne l'élégance et le patrimoine.</p>
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="col-6 card p-5">
                     <div>
-                        <img src="imgs/swapImg3.webp" class="w-100" alt="">
+                        <img src="img/Image3BlogIndex.png" class="w-100" alt="">
                     </div>
                     <div>
                         <h1>Découvrez l'élégance</h1>
@@ -105,25 +112,25 @@
                     </div>
                 </div>
             </div>
-            <div class="d-flex justify-content-end">
-                <a class="btn btn-dark rounded-5">Our Shop Here</a>
+            <div class="d-flex justify-content-end mt-5">
+                <a class="btn btn-lg btn-dark rounded-5 display-1">Our Shop Here</a>
+            </div>
+        </section>
+        <section class="container text-white mt-5 mb-5 p-5" style="background-image: url(img/AuthenticitéImg.png);">
+            <h2 class="text-center display-6 pb-5">Authenticité et qualité</h2>
+            <div class="d-flex justify-content-center w-100 pt-3">
+                <p class="w-75 h3">Chez Sanaat Beladi , nous nous engageons à ne proposer que les meilleurs produits artisanaux marocains. Chaque article est trié sur le volet, ce qui garantit son authenticité et sa qualité.</p>
             </div>
         </section>
         <section class="container">
-            <h2 class="text-center">Authenticité et qualité</h2>
-            <div class="d-flex justify-content-center w-100">
-                <p class="w-75">Chez Sanaat Beladi , nous nous engageons à ne proposer que les meilleurs produits artisanaux marocains. Chaque article est trié sur le volet, ce qui garantit son authenticité et sa qualité.</p>
-            </div>
-            </section>
-        <section class="container">
-            <div>
+            <div class="d-flex justify-content-center p-5">
                 <h2>Meet the Makers: The Soul of Moroccan Artistry</h2>
             </div>
-            <div>
+            <div class="d-flex">
                 <div class="w-50">
-                    <img src="" alt="">
+                    <img class="w-100" src="img/meetThemakersImg1.png" alt="">
                 </div>
-                <div class="w-50">
+                <div class="w-50 p-5">
                     <p>Each handcrafted piece in our collection tells a story of tradition, passion, and unparalleled skill. In our 'Artisan Spotlight', we take you behind the scenes to meet the remarkable individuals whose hands and hearts bring Moroccan artisanate to life. Discover their stories, their inspirations, and the heritage that shapes their work.</p>
                 </div>
             </div>
@@ -164,7 +171,7 @@
                     </div>
                     <hr class="w-100 clearfix d-md-none" />
                     <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-                      <h6 class="text-uppercase mb-4 font-weight-bold">Products</h6>
+                      <h6 class="text-uppercase mb-4 font-weight-bold">Les pages</h6>
                       <p>
                         <a class="text-white">Accueil</a>
                       </p>
