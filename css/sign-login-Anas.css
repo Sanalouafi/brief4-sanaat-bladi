@@ -4,14 +4,14 @@ body{
     background-blend-mode: multiply; */
     background-size: cover;
 }
-header div{
+/* header div{
     
     padding-top: 0.5vh;
     padding-bottom: 0.5vh;
-}
-.navbar{
-    background-color: #001524;
-}
+} */
+header{
+    background-color: #001524 !important;
+  }
 .sign-login-section{
    padding: 10vw;
    gap: 3vw;
