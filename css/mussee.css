@@ -8,13 +8,22 @@ body{
     
 }
 
-.text-header{
-   
-   text-align: center;        
+.text-header {
+   text-align: center;
+   color: beige;  
+ 
 }
 
+.text-header h1{
+  padding-top: 8% ;
+  font-size: 100px;
+}
+
+
 .text-header button{
-    margin-top: 200px;
+    margin-top: 8%;
+    margin-left: 8%;
+    font-size: 30px;
 }
 .header-page{
   background-image: url('../img/0b2fb100a57364581b9298048ae99c42.jpg');
@@ -65,4 +74,41 @@ body{
  flex-direction: column;
  align-items: center; 
  margin-top: 5%;
+}
+
+.img-musee-asafi {
+  max-width: 50%;
+  position: absolute;
+}
+
+.text-img-asfi{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+
+ 
+}
+.text-img-asfi img{
+ max-width: 90%;
+ }
+.text-asafi{
+  width: 100%;
+  font-size: 30px;
+  z-index: 1;
+  padding-left:40% ;
+  position: relative;
+}
+.text-asafi p{
+  background: #fff4f4a7;
+  padding: 40px;
+}
+
+.arti h3{
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.Asafi{
+  margin-top: 280px;
 }
