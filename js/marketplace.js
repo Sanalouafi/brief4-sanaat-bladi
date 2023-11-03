@@ -1,14 +1,8 @@
-    document.addEventListener("DOMContentLoaded", function() {
-        const searchButton = document.querySelector(".prices button");
-        const minPriceInput = document.querySelector(".prices input:nth-child(1)");
-        const maxPriceInput = document.querySelector(".prices input:nth-child(2)");
+document.addEventListener('DOMContentLoaded', function() {
+    var sidebarToggle = document.getElementById('sidebarToggle');
+    var sidebar = document.getElementById('sidebar');
 
-        searchButton.addEventListener("click", function(event) {
-            event.preventDefault();
-            const minPrice = parseFloat(minPriceInput.value);
-            const maxPrice = parseFloat(maxPriceInput.value);
-
-            });
+    sidebarToggle.addEventListener('click', function() {
+        sidebar.classList.toggle('active');
     });
-
-    
+});
