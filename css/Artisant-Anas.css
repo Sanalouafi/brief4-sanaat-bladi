@@ -9,7 +9,7 @@
 /* }  */
 
 /* Style the menu items */
-.navbar-nav {
+/* .navbar-nav {
     text-align: center;
 }
 
@@ -20,9 +20,16 @@
 .nav-link {
     color: #fff;
     font-size: 18px;
+} */
+
+header div{
+    
+    padding-top: 0.5vh;
+    padding-bottom: 0.5vh;
 }
-
-
+.navbar{
+    background-color: #001524;
+}
 
 .navbar{
     justify-content: space-around;
@@ -45,13 +52,9 @@
 body{
     background-color: rgba(175, 175, 175, 0.3);
 }
-hr{
-    width: 90%;
-    padding-top: 5vh;
-}
 
 .hero-section{
-    padding-top: 10vh;
+    padding-top: 15vh;
     height: 100vh;
     background-image: url('/img/image\ 4.png');
     background-color: rgb(0,0,0 , 0.5);
@@ -70,20 +73,23 @@ hr{
     font-weight: bold;
     font-size: 8vw;
 }
-.btn{
+.btn-hero{
     background-color: #397643;
     color: white;
     font-weight: bold;
+    padding-right: 2vw;
+    padding-left: 2vw;
+    height: 7vh;
 }
-.btn:hover{
-    background-color: white;
+.btn-hero:hover{
+    cursor: pointer;
+    background-color: white ;
     color: #397643;
-    border-color: #397643;
-    border: solid;
+    border-radius: 5px;
 }
 
 
-.artisant-reconnu h1, .category-sliders h1, .spotlight-section h1, .blog-section h1, .sponsor-section h1{
+.artisant-reconnu h1, .categorie-section h1, .spotlight-section h1, .blog-section h1, .sponsor-section h1{
     color: #525252;
     padding-top: 5vh;
     padding-bottom: 3vh;
@@ -102,18 +108,33 @@ hr{
     color: #001524;
     font-size: 3vh;
 }
-.profil-cards{
+.profil-cards-top, .profil-cards-bottom{
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 10vw;
     padding-bottom: 5vh;
 }
+#carouselExampleIndicators{
+    padding-left: 7vw;
+    padding-right: 7vw;
+}
+.card img {
+    height: 35vh/* Ensures the image covers the entire container while maintaining aspect ratio */
+  }
+.col-6 h3{
+    color: #001524;
+    padding-left: 5vw;
+    font-weight: bold;
+}
 .profile-reconnu{
     background-color: #001524;
     width: 85%;
     padding-top: 5vh;
     padding-bottom: 3vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .category-sliders h3{
     color: #001524;
@@ -219,6 +240,9 @@ hr{
 .init{
     color: #E7D2C4;
 }
+.ech-pic{
+    width:20%
+}
 .echatillon-pics{
     gap: 3vw;
     padding-top: 3vw;
@@ -291,6 +315,19 @@ form{
     cursor: pointer;
 }
 
+.footer-section footer{
+    background-color: #001524;
+    padding-left: 20vh;
+    padding-right: 20vh;
+    height: fit-content;
+}
+.row, .col .nav-link{
+    color: white;
+}
+.sous-logo{
+    font-size: 12px;
+}
+
 
 @media (max-width: 768px) {
     .navbar-brand {
@@ -308,6 +345,13 @@ form{
     .burger-icon {
         display: block; /* Ensure the burger icon is displayed */
         float: right; /* Align the burger icon to the right */
+    }
+    /****artiste reconnu****/
+    .profil-cards-bottom{
+        display: none;
+    }
+    .profil-cards-top{
+        flex-direction: column;
     }
 
     /* Centered menu */
@@ -330,6 +374,63 @@ form{
         padding: 15px;
         color: #fff;
     }
+    #navbarCollapse{
+        text-align: center;
+    }
+    #lastElementInNavbar{
+        margin-top: 1rem;
+    }
+    .bottom-spotlight{
+        width: 100%;
+    }
+    .spotlight{
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        padding: 0;
+    }
+
+    /* .ech-pic img{
+        margin: 0 auto;
+        display: block;
+    } */
+    .echatillon-pics{
+        display: flex;
+        flex-direction: column;
+    }
+    .content{
+        flex-direction: column;
+        padding: 0;
+    }
+    .articles{
+        width: 100%;
+    }
+    .articles-txt{
+        
+        border-bottom: solid;
+        border-color: #D6CC99;
+        
+    }
+    .articles h2{
+        padding-bottom: 3vh;
+    }
+    
+    .blog{
+        flex-direction: column;
+        align-items: center;
+        padding-left: 3vw;
+        padding-right: 3vw;
+    }
+    .blog-pic{
+        width: 50vw;
+    }
+    .blog-pic img{
+        width: 100%;
+    }
+    .stories{
+        gap: 5vh;
+    }
+    
 }
 
 /* @media (max-width: 768px) {
