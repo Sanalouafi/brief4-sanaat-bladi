@@ -5,17 +5,21 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css">
-  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
   <link rel="stylesheet" href="css/sign-login-Anas.css">
-  <link rel="stylesheet" href="css/index.css">
+  <!-- <link rel="stylesheet" href="css/index.css"> -->
   
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"> -->
   <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"> -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 
-  <title>Document</title>
+  <title>Signup&login</title>
 </head>
 
-<body class="d-flex flex-column">
+<body >
     <header>
         <div class="w-lg-75 mx-2 mx-lg-auto position-relative z-2 px-lg-3 py-0 shadow-5 bg-dark">
             <nav class="fixed-top navbar navbar-expand-lg navbar-dark p-0" id="navbar">
@@ -49,12 +53,13 @@
             </nav>
         </div>
     </header>
-<div class="content ">
-    <div class="sign-login-section d-flex container-fluid align-items-center">
+
+
+    <div class="sign-login-section d-flex container align-items-center">
         <div class="title-area text-center">
            <h1>Entrez vos informations personnelles et commencez votre voyage avec nous</h1>
         </div>
-        <div class="form-area d-flex flex-column align-items-center">
+        <div class="form-area sign-section flex-column align-items-center text-center">
                 <h1>Sign Up</h1>
                 <p>Créez votre compte gratuitement</p>
                 <form action="" class="sign-form d-flex flex-column align-items-center" method="post">
@@ -89,7 +94,7 @@
                 <p>Vous avez deja un compte?? <b id="link-login">Login</b></p>
         </div>
 
-        <div class="form-area d-flex flex-column align-items-center text-center">
+        <div class="form-area login-section flex-column align-items-center text-center">
             <h1>Login</h1>
             <h4>Bienvenue</h4>
             <p>Pour rester en contact avec nous, veuillez vous connecter avec vos informations personnelles</p>
@@ -97,12 +102,12 @@
                 
                 <div class="mailinput">
                     <label for="sign-email"></label>
-                    <input type="email" id="sign-email" name="sign-email" placeholder="Email">
+                    <input type="email" id="log-email" name="sign-email" placeholder="Email">
                     <span class="errmsg">Invalide email!!</span>
                 </div>
                 <div class="pswd-input">
                     <label for="sign-pswd"></label>
-                    <input type="password" id="sign-pswd" name="sign-pswd" placeholder="Mot de pasee">
+                    <input type="password" id="log-pswd" name="sign-pswd" placeholder="Mot de pasee">
                     <span class="errmsg">Invalide password!!</span>
                 </div>
 
@@ -110,10 +115,9 @@
             </form>
             <p>Vous n'avez pas un compte?? <b id="link-sign">Sign up</b></p>
     </div>
+
     </div>
 
-
-</div>
 
     <div class="container-fluid footer-section">
         <footer class="row row-cols-5 py-5 border-top">
@@ -169,7 +173,8 @@
         </footer>
       </div>
 
-
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.5.2/dist/js/bootstrap.min.js"></script>
 
     <script src="/js/sign-login-Anas.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"></script>
