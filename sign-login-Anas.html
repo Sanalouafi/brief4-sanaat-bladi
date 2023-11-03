@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/sign-login-Anas.css">
+  <link rel="stylesheet" href="css/index.css">
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"> -->
+
+  <title>Document</title>
+</head>
+
+<body class="d-flex flex-column">
+    <header>
+        <div class="w-lg-75 mx-2 mx-lg-auto position-relative z-2 px-lg-3 py-0 shadow-5 bg-dark">
+            <nav class="fixed-top navbar navbar-expand-lg navbar-dark p-0" id="navbar">
+                <div class="container px-sm-0">
+                    <a class="navbar-brand d-inline-block w-lg-64" href="#">
+                        LOGO
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <ul class="navbar-nav gap-3 mx-lg-auto">
+                                <li class="nav-item ">
+                                    <a class="nav-link rounded-pill" href="#" aria-current="page">Accueil</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link rounded-pill" href="#">Marketplace</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link rounded-pill" href="#">Artisant</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link rounded-pill" href="#">Musee</a>
+                                </li>
+                        </ul>
+                        <div class="navbar-nav align-items-lg-center justify-content-end gap-2 ms-lg-4 w-lg-64">
+                            <a href="#" class="btn btn-sm btn-white nav-link border-0 rounded-pill w-100 w-lg-auto mb-4 mb-lg-0" id="lastElementInNavbar">Get started</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+<div class="content ">
+    <div class="sign-login-section d-flex container-fluid align-items-center">
+        <div class="title-area text-center">
+           <h1>Entrez vos informations personnelles et commencez votre voyage avec nous</h1>
+        </div>
+        <div class="form-area d-flex flex-column align-items-center">
+                <h1>Sign Up</h1>
+                <p>Créez votre compte gratuitement</p>
+                <form action="" class="sign-form d-flex flex-column align-items-center" method="post">
+                    <div class="nameInput">
+                        <label for="name"></label>
+                        <input type="text" id="name" name="name" placeholder="Nom">
+                        <span class="errmsg">Invalide email!!</span>
+                    </div>
+                    <div class="lastnameInput">
+                        <label for="lastname"></label>
+                        <input type="text" id="lastname" name="lastname" placeholder="Prenom">
+                        <span class="errmsg">Invalide email!!</span>
+                    </div>
+                    <div class="villeInput">
+                        <label for="ville"></label>
+                        <input type="text" id="ville" name="ville" placeholder="Ville">
+                        <span class="errmsg">Invalide email!!</span>
+                    </div>
+                    <div class="mailinput">
+                        <label for="sign-email"></label>
+                        <input type="email" id="sign-email" name="sign-email" placeholder="Email">
+                        <span class="errmsg">Invalide email!!</span>
+                    </div>
+                    <div class="pswd-input">
+                        <label for="sign-pswd"></label>
+                        <input type="password" id="sign-pswd" name="sign-pswd" placeholder="Mot de pasee">
+                        <span class="errmsg">Invalide password!!</span>
+                    </div>
+
+                    <input id="signbtn" type="submit" value="Sign Up">
+                </form>
+                <p>Vous avez deja un compte?? <b id="link-login">Login</b></p>
+        </div>
+
+        <div class="form-area d-flex flex-column align-items-center text-center">
+            <h1>Login</h1>
+            <h4>Bienvenue</h4>
+            <p>Pour rester en contact avec nous, veuillez vous connecter avec vos informations personnelles</p>
+            <form action="" class="login-form d-flex flex-column align-items-center" method="post">
+                
+                <div class="mailinput">
+                    <label for="sign-email"></label>
+                    <input type="email" id="sign-email" name="sign-email" placeholder="Email">
+                    <span class="errmsg">Invalide email!!</span>
+                </div>
+                <div class="pswd-input">
+                    <label for="sign-pswd"></label>
+                    <input type="password" id="sign-pswd" name="sign-pswd" placeholder="Mot de pasee">
+                    <span class="errmsg">Invalide password!!</span>
+                </div>
+
+                <input id="loginbtn" type="submit" value="Login">
+            </form>
+            <p>Vous n'avez pas un compte?? <b id="link-sign">Sign up</b></p>
+    </div>
+    </div>
+
+
+</div>
+
+    <div class="container-fluid footer-section">
+        <footer class="row row-cols-5 py-5 border-top">
+          <div class="col">
+            <h3>LOGO</h3>
+            <a href="/" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
+              <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+            </a>
+            <p class="sous-logo">Conditions d'utilisation | Confidentialité</p>
+            <p class="">© 2023</p>
+            <!-- <p class="text-muted">© 2023</p> -->
+          </div>
+      
+          <div class="col">
+            <h5>Mon compte</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Centre support</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Service client</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">A propos de nous</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Droits d’auteur</a></li>
+            </ul>
+          </div>
+      
+          <div class="col">
+            <h5>A propos</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Politique de retour</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Politique de confidentialité</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Termes et conditions</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Plan de site</a></li>
+            </ul>
+          </div>
+      
+          <div class="col">
+            <h5>Nos information</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Enquete de presse</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Réseaux sociaux</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Répertoires</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Images & B-roll</a></li>
+            </ul>
+          </div>
+      
+          <div class="col">
+            <h5>Contact</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Facebook</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Twitter</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Instagram</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Dribble</a></li>
+            </ul>
+          </div>
+        </footer>
+      </div>
+
+
+
+    <script src="/js/sign-login-Anas.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
