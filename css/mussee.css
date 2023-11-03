@@ -56,6 +56,10 @@ body {
 .musee {
   text-align: center;
   margin-top: 5%;
+<<<<<<< HEAD
+=======
+  
+>>>>>>> abdelquoddouss
 }
 .musee-Meknes img {
   width: 50%;
@@ -108,7 +112,11 @@ body {
   margin-top: 16%;
   height: 60vh;
   width: 100%;
+<<<<<<< HEAD
   background-image: url(../img/image52.png);
+=======
+  background-image: url(../img/image\ 52.png);
+>>>>>>> abdelquoddouss
   position: relative;
 }
 
@@ -116,6 +124,7 @@ body {
   position: absolute;
   width: 300px;
   height: 500px;
+<<<<<<< HEAD
   background-color: #c34444;
   top: 50%;
   left: 50%;
@@ -126,12 +135,26 @@ body {
 .formDiv input {
   position: absolute;
   top: 60%;
+=======
+  background-color: #C34444;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 25%;
+
+}
+
+.formDiv input{
+  position: absolute;
+  top:60%;
+>>>>>>> abdelquoddouss
   left: 20%;
   border-radius: 20px;
   border: none;
   width: 190px;
   height: 50px;
   padding: 2%;
+<<<<<<< HEAD
 }
 .formDiv input::placeholder {
   color: red;
@@ -153,10 +176,35 @@ body {
   position: absolute;
   left: 5%;
   top: 40%;
+=======
+  
+}
+.formDiv input::placeholder{
+color: red;
+}
+.formDiv button{
+  position: absolute;
+  bottom:15%;
+  left: 30%;
+}
+.formDiv h4{
+  position: absolute;
+  left:40%;
+  top:10%;
+  font-size:xx-large ;
+  color: aliceblue;
+} 
+
+.formDiv p{
+  position: absolute;
+  left:5%;
+  top:40%;
+>>>>>>> abdelquoddouss
   color: aliceblue;
   text-align: center;
 }
 
+<<<<<<< HEAD
 .icon {
   position: absolute;
   left: 30%;
@@ -174,6 +222,27 @@ body {
   color: white;
   position: absolute;
   top: 69%;
+=======
+.icon{
+  position: absolute;
+  left:30%;
+  top:25%;
+  color: aliceblue;
+ padding-right: 10px;
+
+}
+
+.icon i{
+  font-size: 20px;
+ padding-right: 20px;
+
+}
+
+.form-email span{
+  color: white;
+  position: absolute;
+  top:69%;
+>>>>>>> abdelquoddouss
   left: 21%;
   border-radius: 20px;
   border: none;
@@ -181,4 +250,8 @@ body {
   height: 50px;
   padding: 2%;
   display: none;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> abdelquoddouss
