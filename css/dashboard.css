@@ -194,3 +194,6 @@ small {
         margin-left: 15px;
     }
 }
+#revenue-section,#sales-section{
+    display: none;
+}

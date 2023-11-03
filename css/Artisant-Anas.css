@@ -1,7 +1,45 @@
+/* Show the menu when the burger icon is clicked */
+/* .show-menu {
+    display: block;
+    position: absolute;
+    top: 60px; /* Adjust as needed */
+    /* left: 0;
+    background-color: #333; */
+    /* width: 100%; */
+/* }  */
+
+/* Style the menu items */
+.navbar-nav {
+    text-align: center;
+}
+
+.nav-item {
+    padding: 10px 0;
+}
+
+.nav-link {
+    color: #fff;
+    font-size: 18px;
+}
+
+
+
 .navbar{
     justify-content: space-around;
     background-color: #001524;
+    padding-left: 8vw;
+    padding-right: 8vw;
     /* color: white; */
+}
+/* .burger-icon, .close-icon {
+    display: none;
+} */
+
+.navbar-nav{
+    gap: 3vw;
+}
+.navbar-nav a{
+    font-weight: bold;
 }
 
 body{
@@ -244,3 +282,74 @@ form{
 .blog{
     gap: 2vw;
 }
+.sponsor-logo{
+    gap: 3vw;
+    padding: 3vh;
+}
+.sponsor-logo img{
+    width: 15vw;
+    cursor: pointer;
+}
+
+
+@media (max-width: 768px) {
+    .navbar-brand {
+        text-align: left; /* Adjust the alignment as needed */
+    }
+
+    .navbar-nav {
+        display: none; /* Hide the list items on mobile */
+    }
+
+    .nav-link.text-light {
+        display: none; /* Hide the "Commencer" anchor on mobile */
+    }
+
+    .burger-icon {
+        display: block; /* Ensure the burger icon is displayed */
+        float: right; /* Align the burger icon to the right */
+    }
+
+    /* Centered menu */
+    .centered-menu {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        background: rgba(0, 0, 0, 0.8);
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 1;
+    }
+    .centered-menu .nav-link {
+        display: block;
+        padding: 15px;
+        color: #fff;
+    }
+}
+
+/* @media (max-width: 768px) {
+    .burger-icon {
+        display: block;
+        cursor: pointer;
+    }
+    .close-icon {
+        display: none;
+        cursor: pointer;
+    } */
+    /* Style the burger icon and close icon here */
+    /* .burger-icon .bar, .close-icon .bar {
+        width: 30px;
+        height: 3px;
+        background-color: #fff;
+        margin: 6px 0;
+    }
+} */
+
+
+
+
