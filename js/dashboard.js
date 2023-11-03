@@ -85,21 +85,55 @@ var myLineChart = new Chart(ctxL, {
 
 //////////////////////
 
-   
+  // Sidebar Toggler
+document.querySelector('.sidebar-toggler').addEventListener('click', function() {
+  document.querySelector('.sidebar').classList.toggle('open');
+  document.querySelector('.content').classList.toggle('open');
+  return false;
+});
 
 
-    // Sidebar Toggler
-    $('.sidebar-toggler').click(function () {
-        $('.sidebar, .content').toggleClass("open");
-        return false;
-    });
 
+const dashboard = document.getElementById('content-container');
+const salesSection = document.getElementById('sales-section');
+const revenueSection = document.getElementById('revenue-section');
+const salesLink = document.getElementById('sales-link');
+const revenueLink = document.getElementById('revenue-link');
+const dashboardLink = document.getElementById('dashboard-link');
 
-    // Progress Bar
-    $('.pg-bar').waypoint(function () {
-        $('.progress .progress-bar').each(function () {
-            $(this).css("width", $(this).attr("aria-valuenow") + '%');
-        });
-    }, {offset: '80%'});
+function showSalesSection() {
+    salesSection.style.display = 'block';
+    revenueSection.style.display = 'none';
+    dashboard.style.display = 'none';
+    
+    salesLink.classList.add('active');
+    revenueLink.classList.remove('active');
+    dashboardLink.classList.remove('active');
+}
+
+function showDashboardSection() {
+    dashboard.style.display = 'block';
+    salesSection.style.display = 'none';
+    revenueSection.style.display = 'none';
+
+    dashboardLink.classList.add('active');
+    salesLink.classList.remove('active');
+    revenueLink.classList.remove('active');
+}
+
+function showRevenueSection() {
+    dashboard.style.display = 'none';
+    salesSection.style.display = 'none';
+    revenueSection.style.display = 'block';
+
+    revenueLink.classList.add('active');
+    salesLink.classList.remove('active');
+    dashboardLink.classList.remove('active');
+}
+
+salesLink.addEventListener('click', showSalesSection);
+revenueLink.addEventListener('click', showRevenueSection);
+dashboardLink.addEventListener('click', showDashboardSection);
+showDashboardSection();
 
 
