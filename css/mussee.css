@@ -116,6 +116,7 @@ body {
   position: absolute;
   width: 300px;
   height: 500px;
+<<<<<<< HEAD
   background-color: #c34444;
   top: 50%;
   left: 50%;
@@ -127,6 +128,11 @@ body {
   position: absolute;
   top: 60%;
   background-color: #ffffff;
+=======
+
+
+  background-color: #C34444;
+>>>>>>> cd00368a3990f613bbc082815fec57aba27acdc4
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
@@ -136,13 +142,21 @@ body {
 
 .formDiv input {
   position: absolute;
+<<<<<<< HEAD
   top: 60%;
+=======
+  top:60%;
+>>>>>>> cd00368a3990f613bbc082815fec57aba27acdc4
   left: 20%;
   border-radius: 20px;
   border: none;
   width: 190px;
   height: 50px;
   padding: 2%;
+<<<<<<< HEAD
+=======
+
+>>>>>>> cd00368a3990f613bbc082815fec57aba27acdc4
 }
 .formDiv input::placeholder {
   color: red;
